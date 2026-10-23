@@ -41,6 +41,11 @@
 Aqui estão os principais sistemas que desenvolvi, focados em arquitetura backend escalável, automação de processos e engenharia de IA:
 
 ###  Inteligência Artificial & NLP
+
+* **[TCC — RAG com Consciência Temporal para Suporte Técnico de Hardware](https://github.com/dyoussef11/TCC-Daniel-Youssef)**
+  > Trabalho de Conclusão de Curso que propõe uma arquitetura de **Retrieval-Augmented Generation (RAG)** sensível ao tempo para mitigar a **obsolescência informacional** em domínios técnicos. O sistema integra **decaimento temporal controlado**, **SKU-Lock** (trava lógica de entidade) e **auditoria de alucinações** com fallback híbrido. A validação é feita via **LLM-as-a-Judge** com DeepEval, comparando a engine Vanilla (baseline) contra a engine Temporal (proposta).
+  > 🛠️ *Python, Ollama, FAISS, BGE-M3, DeepEval, NLP, RAG Frameworks, Processamento de Linguagem Natural.*
+
 * **[TimeAware-RAG-Auditor](https://github.com/dyoussef11/TimeAware-RAG-Auditor)**
   > Framework avançado de Retrieval-Augmented Generation (RAG) projetado para mitigar a obsolescência informacional em sistemas de suporte técnico. O motor utiliza algoritmos de decaimento temporal e auditoria híbrida de dados para garantir que as respostas geradas por LLMs locais permaneçam precisas, contextualizadas e atualizadas.
   > 🛠️ *Python, Ollama, Hugging Face, NLP, Vector Databases, RAG Frameworks.*
